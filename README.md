@@ -6,7 +6,8 @@ Each requirement is given a unique identifier (a string of characters with no sp
 Then, for each requirement, the list of requirements on which it depends directly is given. <br />
 This can be represented textually in a line. The first word is the identifier of a requirement, <br />
 and the rest of the words are the identifiers of the requirements on which it depends directly. <br />
-For example, the line <br /> 
+## Usage: 
+the line <br /> 
 Rx Ry Rz <br />
 means that the requirement whose identifier is Rx depends on the requirements whose
 identifiers are Ry and Rz. <br />
